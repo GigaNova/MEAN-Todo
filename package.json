@@ -1,0 +1,27 @@
+{
+  "name": "meantodo",
+  "version": "1.0.0",
+  "description": "MEAN Stack todo list",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "keywords": [
+    "MEAN",
+    "Stack",
+    "AngularJS"
+  ],
+  "dependencies": {
+    "express" : "*",
+    "mongoose" : "*",
+    "bcryptjs" : "*",
+    "cors" : "*",
+    "jsonwebtoken" : "*",
+    "body-parser" : "*",
+    "passport" : "*",
+    "passport-jwt" : "*"
+  },
+  "author": "Styn van de Haterd",
+  "license": "ISC"
+}
